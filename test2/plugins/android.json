@@ -12,7 +12,14 @@
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.test2.app"
+        },
+        "cordova-plugin-admob-simple": {
+            "PACKAGE_NAME": "com.test2.app"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-admob-sdklibs": {
+            "PACKAGE_NAME": "com.test2.app"
+        }
+    }
 }
