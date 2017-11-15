@@ -18,6 +18,9 @@
         },
         "com.admob.plugin": {
             "PACKAGE_NAME": "com.test2.app"
+        },
+        "admob": {
+            "PACKAGE_NAME": "com.test2.app"
         }
     },
     "dependent_plugins": {

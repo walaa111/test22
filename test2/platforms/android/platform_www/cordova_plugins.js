@@ -23,6 +23,14 @@ module.exports = [
         "clobbers": [
             "window.admob"
         ]
+    },
+    {
+        "id": "admob.admob",
+        "file": "plugins/admob/www/admob.js",
+        "pluginId": "admob",
+        "clobbers": [
+            "window.admob"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -32,7 +40,8 @@ module.exports.metadata =
     "cordova-plugin-whitelist": "1.3.3",
     "cordova-admob-sdklibs": "2.1.6",
     "cordova-plugin-admob-simple": "3.3.4",
-    "com.admob.plugin": "5.5.0"
+    "com.admob.plugin": "5.5.0",
+    "admob": "5.5.0"
 };
 // BOTTOM OF METADATA
 });

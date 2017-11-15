@@ -51,7 +51,9 @@ document.addEventListener('deviceready', function () {
 
 
  // Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713
-        MobileAds.initialize(this, "ca-app-pub-1045090941440930~9693578963");
+
+        admob.initAdmob("ca-app-pub-1045090941440930~9693578963");//admob id format ca-app-pub-xxxxxxxxxxxxxxxxxxx/xxxxxxxxxx
+        admob.showBanner(admob.BannerSize.BANNER,admob.Position.TOP_APP);//show banner at the top of app 
     },
 
     // Update DOM on a Received Event
