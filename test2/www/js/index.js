@@ -58,7 +58,11 @@ var app = {
 
         this.receivedEvent('deviceready');
 
+<<<<<<< HEAD
      MobileAds.initialize(this, "ca-app-pub-1045090941440930~9693578963");
+=======
+
+>>>>>>> fbf90ad5afb1d9cee7782883ec837c93dc2500c4
 
         // Add to index.js or the first page that loads with your app.
 
@@ -255,4 +259,8 @@ function showInterstitialFunc() {
 
 }
 
+<<<<<<< HEAD
 app.initialize();
+=======
+app.initialize();
+>>>>>>> fbf90ad5afb1d9cee7782883ec837c93dc2500c4
