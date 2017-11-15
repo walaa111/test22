@@ -25,6 +25,6 @@
     </platform>
     <preference name="android-minSdkVersion" value="15" />
     <plugin name="onesignal-cordova-plugin" spec="~2.2.2" />
- <gap:plugin name="admob" version="5.4.2" source="npm"/>
+ <plugin name="admob" version="5.4.2" source="npm"/>
   
 </widget>
