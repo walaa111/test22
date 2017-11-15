@@ -41,7 +41,8 @@ module.exports.metadata =
     "cordova-admob-sdklibs": "2.1.6",
     "cordova-plugin-admob-simple": "3.3.4",
     "com.admob.plugin": "5.5.0",
-    "admob": "5.5.0"
+    "admob": "5.5.0",
+    "cordova-android-play-services-gradle-release": "1.1.4"
 };
 // BOTTOM OF METADATA
 });

@@ -1,31 +1,35 @@
 {
-    "prepare_queue": {
-        "installed": [],
-        "uninstalled": []
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "com.test2.app"
     },
-    "config_munge": {
-        "files": {}
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.test2.app"
     },
-    "installed_plugins": {
-        "onesignal-cordova-plugin": {
-            "PACKAGE_NAME": "com.test2.app"
-        },
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.test2.app"
-        },
-        "cordova-plugin-admob-simple": {
-            "PACKAGE_NAME": "com.test2.app"
-        },
-        "com.admob.plugin": {
-            "PACKAGE_NAME": "com.test2.app"
-        },
-        "admob": {
-            "PACKAGE_NAME": "com.test2.app"
-        }
+    "cordova-plugin-admob-simple": {
+      "PACKAGE_NAME": "com.test2.app"
     },
-    "dependent_plugins": {
-        "cordova-admob-sdklibs": {
-            "PACKAGE_NAME": "com.test2.app"
-        }
+    "com.admob.plugin": {
+      "PACKAGE_NAME": "com.test2.app"
+    },
+    "admob": {
+      "PACKAGE_NAME": "com.test2.app"
+    },
+    "cordova-android-play-services-gradle-release": {
+      "PLAY_SERVICES_VERSION": "11.+",
+      "PACKAGE_NAME": "com.test2.app"
     }
+  },
+  "dependent_plugins": {
+    "cordova-admob-sdklibs": {
+      "PACKAGE_NAME": "com.test2.app"
+    }
+  }
 }

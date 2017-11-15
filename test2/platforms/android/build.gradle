@@ -92,6 +92,7 @@ ext {
 
 // PLUGIN GRADLE EXTENSIONS START
 apply from: "onesignal-cordova-plugin/app-build-extras-onesignal.gradle"
+apply from: "cordova-android-play-services-gradle-release/app-cordova-android-play-services-gradle-release.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras = file('build-extras.gradle').exists()
@@ -257,7 +258,6 @@ dependencies {
     compile "com.google.android.gms:play-services-base:+"
     compile "com.google.android.gms:play-services-ads:+"
     // SUB-PROJECT DEPENDENCIES END4
-    compile 'com.google.android.gms:play-services-ads:11.6.0'
 }
 
 def promptForReleaseKeyPassword() {

@@ -28,8 +28,7 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
-
-                // Add to index.js or the first page that loads with your app.
+        // Add to index.js or the first page that loads with your app.
 // For Intel XDK and please add this to your app.js.
 
 document.addEventListener('deviceready', function () {
@@ -49,6 +48,13 @@ document.addEventListener('deviceready', function () {
   // This improves the effectiveness of OneSignal's "best-time" notification scheduling feature.
   // window.plugins.OneSignal.syncHashedEmail(userEmail);
 }, false);
+
+
+ // Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713
+
+  	admob.initAdmob("ca-app-pub-7251676025279948/7827344712","ca-app-pub-7251676025279948/5792208319");
+	admob.showBanner(admob.BannerSize.BANNER, admob.Position.BOTTOM_APP);
+
     },
 
     // Update DOM on a Received Event
