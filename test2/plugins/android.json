@@ -15,6 +15,9 @@
         },
         "cordova-plugin-admob-simple": {
             "PACKAGE_NAME": "com.test2.app"
+        },
+        "com.admob.plugin": {
+            "PACKAGE_NAME": "com.test2.app"
         }
     },
     "dependent_plugins": {
