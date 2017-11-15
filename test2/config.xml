@@ -25,6 +25,7 @@
     </platform>
     <preference name="android-minSdkVersion" value="15" />
     <plugin name="onesignal-cordova-plugin" spec="~2.2.2" />
+    <plugin name="admob" spec="~5.5.0" />
     <plugin name="cordova-android-play-services-gradle-release" spec="~1.1.4">
         <variable name="PLAY_SERVICES_VERSION" value="11.+" />
     </plugin>
