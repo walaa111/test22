@@ -52,8 +52,9 @@ document.addEventListener('deviceready', function () {
 
  // Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713
 
-        admob.initAdmob("ca-app-pub-1045090941440930~9693578963");//admob id format ca-app-pub-xxxxxxxxxxxxxxxxxxx/xxxxxxxxxx
-        admob.showBanner(admob.BannerSize.BANNER,admob.Position.TOP_APP);//show banner at the top of app 
+  	admob.initAdmob("ca-app-pub-7251676025279948/7827344712","ca-app-pub-7251676025279948/5792208319");
+	admob.showBanner(admob.BannerSize.BANNER, admob.Position.BOTTOM_APP);
+
     },
 
     // Update DOM on a Received Event
