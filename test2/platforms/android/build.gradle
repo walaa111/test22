@@ -39,6 +39,9 @@ allprojects {
     repositories {
         mavenCentral();
         jcenter()
+           maven {
+            url "https://maven.google.com"
+        }
     }
 }
 
@@ -253,7 +256,8 @@ dependencies {
     compile "com.onesignal:OneSignal:3.6.3"
     compile "com.google.android.gms:play-services-base:+"
     compile "com.google.android.gms:play-services-ads:+"
-    // SUB-PROJECT DEPENDENCIES END
+    // SUB-PROJECT DEPENDENCIES END4
+    compile 'com.google.android.gms:play-services-ads:11.6.0'
 }
 
 def promptForReleaseKeyPassword() {
